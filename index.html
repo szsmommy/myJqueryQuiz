@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>My JQuery Mini Quiz</title>
-        <link rel="stylesheet" type="text/css" href="style.css" ;>    </head>
-    <body>
+<head>
+    <meta charset="utf-8">
+    <title>My JQuery Mini Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
 
-        <h1>United States Knowledge Quiz</h1>
-        <img src="img_girl.jpg" alt="Girl in a jacket">
-        <form id="quiz-form">
-            <label>Who is the current U.S. President?
-            <br>
-                <select id="quiz-answer">
-                    <option value="Hilary Clinton">Hilary Clinton</option>
-                    <option value="Joe Biden">Joe Biden</option>
-                    <option value="Optimus Prime">Optimus Prime</option>
-                    <option value="Donald Trump">Donald Trump</option>
-                </select>
-            </label> <br>
+    <h1>United States Knowledge Quiz</h1>
+    <img src="./media/USFlag.png" alt="American flag on continent" width="200">
+    <form id="quiz-form">
+        <label for="quiz-answer">Who is the current U.S. President?</label><br>
+        <select id="quiz-answer">
+            <option value="Hilary Clinton">Hilary Clinton</option>
+            <option value="Joe Biden">Joe Biden</option>
+            <option value="Optimus Prime">Optimus Prime</option>
+            <option value="Donald Trump">Donald Trump</option>
+        </select><br>
         <button type="submit">Check Answer</button>    
-            </form>
-            <div id="result"></div>
-           
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-            <script src="main.js">
-            </script>
-        </body>
+    </form>
+    <div id="result"></div>
+       
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
